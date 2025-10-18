@@ -1,0 +1,51 @@
+.meeting-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #202124;
+    color: white;
+}
+
+.videos-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.video-player {
+    width: 400px;
+    height: 300px;
+    background-color: #3c4043;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.controls-container {
+    background-color: #282c34;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.control-button {
+    background-color: #ea4335; /* A red color for main actions */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-button.secondary {
+    background-color: #3c4043;
+}

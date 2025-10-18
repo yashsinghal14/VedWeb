@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories
+coverage
+.nyc_output
+
+# Build output
+build
+dist
+out
+.tmp
+.temp
+.cache
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Debug / cache
+.eslintcache
+node_modules/.cache
+
+# Process managers
+pids/
+.pids
+pm2*.log
+
+# Prisma (if used)
+prisma/*.db
+prisma/*.db-journal

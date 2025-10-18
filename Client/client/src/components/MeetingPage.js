@@ -17,7 +17,7 @@ const MeetingPage = () => {
     const screenTrackRef = useRef(null);
 
     useEffect(() => {
-        socketRef.current = io.connect("http://localhost:5000");
+        socketRef.current = io.connect("https://vedweb.onrender.com/");
 
         navigator.mediaDevices.getUserMedia({ video: true, audio: true})
             .then(stream => {
